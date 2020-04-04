@@ -1,8 +1,8 @@
 {
-  "name": "vnc",
-  "version": "1.0.7",
-  "description": "",
-  "main": "lib/main.js",
+  "name": "vnc-pack",
+  "version": "1.0.0",
+  "description": "vnc + novnc pack api",
+  "main": "api/api.js",
   "scripts": {
     "start": "node example/app.js"
   },
