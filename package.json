@@ -1,6 +1,6 @@
 {
   "name": "vnc-pack",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "vnc + novnc pack api",
   "main": "api/api.js",
   "scripts": {
