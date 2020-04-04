@@ -1,0 +1,13 @@
+version: "3.3"
+services:
+  vnc:
+    build: .
+    privileged: true
+    ports:
+      - '5900-5910:5900-5910'
+      - '6080-6090:6080-6090'
+      - '9001:9001'
+      - '3000:3000'
+      - '9229:9229'
+    environment: 
+      - DEFAULT_SIZE=800x900x24

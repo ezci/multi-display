@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+}
+.container{
+    margin-top:40px;
+}
+h2{
+    float: left;
+    width: 200px;
+    text-align: left;
+}
+tr{
+    line-height:60px;
+}
+th{
+    min-width:50px;
+}
+tr:hover td{
+    background-color:#efe6e673;
+    cursor: pointer;
+}
+
+.removeButton{
+    visibility:hidden;
+    float: right;
+}
+.msg {
+    text-align: right;
+    margin-top: 30px;
+    color: #606c76;
+}
+tr:hover td button{
+    visibility:unset;
+}
+
+.buttons{
+    width: 100%;
+}
+#screens{
+    display: none;
+}
+.command{
+    display: none;
+    text-align: left;
+    float:left;
+    width: 100%;
+    margin: 0;
+}
+
+.createDiv{
+    float: right;
+    text-align: right;
+    width:30%;
+    margin: 0;
+}
+
+#commandInput{
+    width: 70%;
+}
+#commandButton{
+    float: right;
+}
+#dsize{
+    width: 100px;
+    margin-right: 20px;
+}
