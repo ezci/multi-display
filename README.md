@@ -1,5 +1,5 @@
-# vnc-pack
-dockerized vnc + novnc pack 
+# multi-display
+dockerized vnc pack to create multiple displays 
 
 [![npm version](https://badge.fury.io/js/vnc-pack.svg)](https://badge.fury.io/js/vnc-pack)
 
